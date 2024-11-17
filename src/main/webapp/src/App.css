@@ -1,0 +1,8 @@
+.main-window {
+    min-height: 100vh;
+    background-color: #F5F8FA;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
