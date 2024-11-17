@@ -20,9 +20,9 @@ npm start
 ```
 
 ## Interacting with the application
-Frontend is served on `http://localhost:3000/`
+The frontend is accessible at http://localhost:3000/.
 
-Backend OpenAPI specification can be found on `http://localhost:8080/swagger`
+The backend's OpenAPI documentation is available at http://localhost:8080/swagger.
 
 ### Curl commands:
 1.1 - Create a new Account: 
