@@ -1,9 +1,13 @@
 # Bankdata Code Challenge
 
-Author: Gustav A. Gammelgaard
+Author: Gustav A. G.
+
+Implemented in Java with the Quarkus framework, Maven dependency manager, and H2 in-memory database. The web-application is written in JavaScript using the React library.
+
+The application starts with two Accounts in the database, having account number (id) 1 and 2. See `.\src\main\resources\import.sql` for details.
 
 ## Examples of application
-See the folder `.\ìmages\`
+See the folder `.\images\`
 
 ## Starting the application
 
@@ -25,7 +29,7 @@ The frontend is accessible at http://localhost:3000/.
 The backend's OpenAPI documentation is available at http://localhost:8080/swagger.
 
 ### Curl commands:
-1.1 - Create a new Account: 
+1.1 - Create a new Account (response is the new account number): 
 ```bash  
 curl -X 'POST' \
   'http://localhost:8080/account?balance=200&firstName=Lars&lastName=Larsen' \
